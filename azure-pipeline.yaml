@@ -1,9 +1,7 @@
 trigger:
 - master
-
 pool:
   vmImage: ubuntu-latest
-
 jobs:
 - job: Sonar_SAST_Scan_Job
   container: maven:3.8.1-openjdk-17-slim
